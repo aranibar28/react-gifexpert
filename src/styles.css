@@ -1,0 +1,16 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
