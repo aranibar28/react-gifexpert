@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { App } from "./App";
 import "./styles.css";
-import { GifExpertApp } from "./GifExpertApp";
 
-ReactDOM.render(<GifExpertApp />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

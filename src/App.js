@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategoy";
 import { GifGrid } from "./components/GifGrid";
 
-export const GifExpertApp = () => {
+export const App = () => {
   const [categories, setCategories] = useState(["One Punch"]);
 
   return (
     <div>
-      <h2>Gif ExpertApp</h2>
-      <AddCategory setCategories={setCategories} />
-      <hr />
+      <div className="card-box">
+        <h2>Gif ExpertApp</h2>
+        <AddCategory setCategories={setCategories} />
+      </div>
       <ol>
         {categories.map((category) => (
           <GifGrid key={category} category={category} />
